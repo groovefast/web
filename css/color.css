@@ -1,0 +1,30 @@
+:root {
+    /*  primary color */
+    --primary-color: #2dd0b6;
+
+    /*  secondary color */
+    --secondary-color: #c7d170;
+    --gradient: linear-gradient(to top,#2dd0b6 0,#c7d170 70%);
+
+    --gradient-circle: radial-gradient(circle, rgba(0, 217, 255, 0.25) 20%, rgba(9, 239, 255, 0) 70%);
+
+    /* text-color 1 */
+    --text-color-1: rgb(107 114 128);
+
+    /* black color */
+    --black-color: #1F1E19;
+
+    /* white color */
+    --white-color: #ffffff;
+    --white-color-rgb: 255, 255, 255;
+
+    /* border color */
+    --border-1: #E9E8E5;
+
+    /* Bg color */
+    --bg-1: rgba(152, 177, 31, 0.1);
+
+    /* Shadow */
+    --shadow-1: 1px 4px 19.9px 0px rgba(207, 203, 198, 0.90);
+
+}

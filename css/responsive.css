@@ -1,0 +1,487 @@
+/* Responsive Css */
+
+
+
+@media only screen and (max-width: 1449px){
+    .banner-section {
+        padding: 200px 0px 265px 0px;
+    }
+
+
+}
+
+/* MackBook */
+@media only screen and (max-width: 1440px){
+
+    /* footer */
+    .footer-image-1, .footer-image-2 {
+        max-width: 360px;
+        height: 250px;
+    }
+    .footer-image-1 {
+        right: 100px;
+    }
+    .footer-image-2 {
+        left: 100px;
+    }
+}
+
+
+/* Large screen  */
+@media only screen and (min-width: 1200px) and (max-width: 1319px){
+    /* footer */
+    .footer-image-2 {
+        left: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px){
+
+
+    .main-header .outer-box{
+        padding: 0px 30px;
+    }
+
+    .main-menu .navigation > li{
+        padding: 0px 10px;
+    }
+
+    .main-footer .shape{
+        display: none;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 768px){
+    .main-menu .navigation > li > ul,
+    .main-menu .navigation > li > ul > li > ul,
+    .main-menu .navigation > li > .megamenu{
+        display:block !important;
+        visibility:hidden;
+        opacity:0;
+    }
+
+
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .banner-section {
+        padding: 152px 0px 105px 0px;
+    }
+    .banner-section h3 {
+        font-size: 40px;
+    }
+    .banner-section h2 {
+        font-size: 24px;
+    }
+    .mobile-section {
+        padding: 100px 0 100px;
+    }
+
+    .common-title h2 {
+        font-size: 32px !important;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .features {
+        padding: 100px 0 70px;
+        position: relative;
+    }
+
+    .payment-method {
+        padding: 100px 0 100px;
+    }
+
+    .tools-section {
+        padding: 100px 0 100px;
+    }
+    .tools-section-container {
+        gap: 20px;
+        padding: 30px 30px;
+    }
+
+    .process-section-single {
+        margin-bottom: 40px;
+    }
+    .process-section-container {
+        padding: 90px 78px;
+    }
+
+    .solution-demo {
+        padding: 100px 0 70px;
+    }
+
+    .sec-title h2{
+        font-size: 34px !important;
+    }
+
+    .resorces {
+        padding: 100px 0 100px;
+    }
+
+    .pricing {
+        padding: 100px 0 100px;
+    }
+    table.compare-licence-table tbody tr td {
+        padding: 25px 34px;
+    }
+    table.compare-licence-table thead tr .font-bold {
+        padding-left: 30px;
+    }
+
+    .main-footer h2 {
+        font-size: 41px;
+        line-height: 55px;
+    }
+    .footer-image-1, .footer-image-2{
+        display: none;
+    }
+    .main-footer {
+        padding: 100px 0px;
+    }
+    .main-footer .logo {
+        width: 160px;
+    }
+
+}
+
+
+@media only screen and (max-width: 991px){
+    .main-header {
+        margin-top: 0;
+    }
+
+    .menu-area .mobile-nav-toggler {
+        display: block;
+        padding: 10px;
+    }
+
+    .main-header .outer-box{
+        padding: 30px;
+    }
+
+    .main-menu .navigation {
+        gap: 20px;
+    }
+
+    .megamenu h6{
+        display: none;
+    }
+
+    .responsive-section .content-box{
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .paroller-3,
+    .paroller-4{
+        transform: translateX(1px) !important;
+    }
+
+    .responsive-section .image-box{
+        margin-right: 0px;
+    }
+
+    .responsive-section .image-box{
+        padding-left: 0px;
+    }
+
+    .responsive-section .image-box .image-1{
+        max-width: 250px;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .intro-single {
+        padding: 0 20px;
+        max-width: 250px;
+        word-wrap: break-word;
+    }
+    .intro-content a{
+        font-size: 17px;
+    }
+
+    .main-demo {
+        padding: 80px 0px 60px 0px;
+    }
+    .dashboard-feature-top {
+        padding: 80px 0 180px;
+    }
+
+    .star-shape {
+        left: 28px;
+    }
+
+    .responsive-section .inner-container {
+        padding: 90px 0px;
+    }
+    .feature-section .inner-container {
+        padding-bottom: 80px;
+    }
+
+    .block-section .image-box{
+        margin-left: 0px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 767px){
+
+    .boxed_wrapper{
+        overflow: hidden !important;
+    }
+
+    .theme-btn {
+        font-size: 14px;
+        padding: 10px 64px 10px 25px;
+    }
+
+    .process-section-container {
+        padding: 80px 15px;
+    }
+    .process-section-container {
+        border-radius: 55px;
+    }
+
+    .main-header .logo {
+        width: 146px;
+        margin: 0 auto;
+    }
+
+    .main-menu .navigation {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .nav-right {
+        position: absolute;
+        left: 60%;
+        bottom: 40px;
+    }
+
+    .main-header .theme-btn {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 8px 20px;
+    }
+
+    .nav-outer {
+        display: none;
+    }
+
+    .banner-section h3 {
+        font-size: 30px;
+    }
+    .banner-section {
+        padding: 130px 0px 80px 0px;
+    }
+    .banner-section h2 {
+        font-size: 22px;
+        line-height: 33px;
+    }
+    .banner-button-box {
+        flex-direction: column;
+    }
+
+    .common-title h2 {
+        font-size: 20px !important;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .pricing {
+        padding: 80px 0 80px;
+    }
+    .table-container {
+        overflow: auto !important;
+    }
+    table.compare-licence-table {
+        width: 725px;
+    }
+    table.compare-licence-table tbody tr td {
+        padding: 20px 10px;
+    }
+    table.compare-licence-table thead tr .font-bold {
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    .sticky-thead {
+        top: 0;
+    }
+
+    .tools-section-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px 20px;
+    }
+    .tools-section-wrapper {
+        gap: 10px;
+    }
+    .tools-section-wrapper .payment-method-item {
+        gap: 7px;
+        padding: 10px 15px;
+    }
+    .payment-method-item-content h4 {
+        font-size: 16px;
+    }
+
+    .mobile-section {
+        padding: 80px 0 80px;
+    }
+    .mobile-app .mobile-app-frame {
+        width: 320px;
+        height: calc(100vh - 50px);
+    }
+
+    .features {
+        padding: 80px 0 50px;
+    }
+    .features .common-title {
+        margin-right: 0;
+    }
+
+    .payment-method {
+        padding: 80px 0 80px;
+    }
+    .payment-method-item {
+        gap: 8px;
+        padding: 6px 10px;
+    }
+
+    .resorces {
+        padding: 80px 0 80px;
+    }
+    .solution-demo {
+        padding: 80px 0 50px;
+    }
+
+    .main-footer h2, .sec-title h2 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .feature-section .sec-title figure{
+        display: none;
+    }
+
+    .feature-section .inner-container{
+        padding-bottom: 70px;
+    }
+
+    .feature-section .feature-inner{
+        max-width: 480px;
+        margin: 0 auto;
+    }
+
+    .feature-section .single-item {
+        margin: 0;
+    }
+
+    .main-footer h2,
+    .sec-title h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .scroll-to-top {
+        right: -47px;
+        bottom: 90px;
+    }
+
+
+    .main-footer h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .footer-image-1, .footer-image-2{
+        display: none;
+    }
+    .main-footer {
+        padding: 80px 0px;
+    }
+    .main-footer .logo {
+        width: 140px;
+    }
+
+}
+
+@media only screen and (max-width: 599px){
+
+    .feature-section .single-item{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .main-footer h2, .sec-title h2 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+}
+
+
+@media only screen and (max-width: 499px){
+
+    .mobile-menu{
+        width: 100%;
+    }
+
+    .main-header .outer-box{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .menu-area .mobile-nav-toggler{
+        margin-top: 25px;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 399px){
+
+
+
+}
+
+/* ---------------------------------
+responsive
+---------------------------------- */
+/* MackBook */
+@media only screen and (max-width: 1440px){
+
+}
+
+/* Large screen  */
+@media only screen and (min-width: 1200px) and (max-width: 1319px){
+
+}
+
+/* Medium screen  */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px){
+
+}
+/* ---------------------------------
+responsive
+---------------------------------- */
